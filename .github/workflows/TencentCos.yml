@@ -22,8 +22,6 @@ jobs:
         with:
           node-version: "10.x"
 
-      - name: Build project
-        run: yarn && yarn build
 
       - name: Upload COS
         uses: zkqiang/tencent-cos-action@v0.1.0
